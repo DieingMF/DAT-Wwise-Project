@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1EFBE200-A622-4F29-B0BB-42A5490209F4}" SchemaVersion="103">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{1EFBE200-A622-4F29-B0BB-42A5490209F4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{500CF4DF-06C7-4A49-B50E-0788F757A98D}" WorkUnitID="{9EB4ECE1-49BA-4DB6-8B59-FFBC19C865D4}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
+				<Bus Name="Motion Factory Bus" ID="{2AF9B9C6-6EF1-46E9-B5F2-E30C9E602C74}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="Default_Motion_Device" ID="{0D27CEA6-37C5-44F9-BD16-60CFD5642F35}" WorkUnitID="{9EB4ECE1-49BA-4DB6-8B59-FFBC19C865D4}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
+				<Bus Name="Sound_OutsideCar" ID="{EDCF8638-D0F4-40D1-929E-0AF1EE5D967B}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{500CF4DF-06C7-4A49-B50E-0788F757A98D}" WorkUnitID="{9EB4ECE1-49BA-4DB6-8B59-FFBC19C865D4}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

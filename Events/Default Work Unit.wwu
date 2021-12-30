@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C0216784-4776-46A5-B571-C9B26EAEF68D}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{C0216784-4776-46A5-B571-C9B26EAEF68D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Alert_OffHighWay" ID="{7B3BBA19-5D6B-493D-94EC-E725C3BAFC14}">
+					<ChildrenList>
+						<Action Name="" ID="{DE961EE6-400E-463D-B7B4-EF1FB7EF287A}" ShortID="132938225">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sound_Alert_03" ID="{9FCA0D1A-ED54-4666-8E69-4D330E3E1F2A}" WorkUnitID="{3BC2F75F-8E12-4788-89B9-6BDD2DE3A60F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Dialogue_OffHighWay" ID="{A234A12C-5B47-469B-B88B-7F496C6B28E8}">
+					<ChildrenList>
+						<Action Name="" ID="{DC8ED1A2-44D0-495F-94D1-9968E859A6AE}" ShortID="23795368">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sound_Dialogue_OffHighWay" ID="{6BA48A7F-D6F2-425E-928B-E37BB53F2CE6}" WorkUnitID="{3BC2F75F-8E12-4788-89B9-6BDD2DE3A60F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Car_Speed_Slowdown" ID="{CF1E582C-476D-4F37-8925-B6C0D2A2EBA8}">
+					<ChildrenList>
+						<Action Name="" ID="{D55F32EB-52BF-42FE-ABEB-DBB755A8DD50}" ShortID="376060981">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sound_OutsideCar" ID="{081FAB76-9B00-4E61-9E4B-0A0654A69BF7}" WorkUnitID="{3BC2F75F-8E12-4788-89B9-6BDD2DE3A60F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Chat_Background" ID="{4D267969-9DE7-4A7B-9978-D16CFAC01098}">
+					<ChildrenList>
+						<Action Name="" ID="{3CFE4F9A-FCD0-4391-90A6-3FC3B4FC895A}" ShortID="375278194">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sound_Chat" ID="{C2879521-2AFB-46AD-92C7-AEC6E1808273}" WorkUnitID="{3BC2F75F-8E12-4788-89B9-6BDD2DE3A60F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SwitchLine_Sound_ReversingLights" ID="{FAEE28AB-FCF1-45DD-BAA4-170C1D82BD93}">
+					<ChildrenList>
+						<Action Name="" ID="{CD17559C-0966-48CB-A614-8B2A1953082C}" ShortID="298830128">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sound_ReversingLightsRight" ID="{5CA71903-458A-4675-ACB7-7CF9CC8B98DF}" WorkUnitID="{3BC2F75F-8E12-4788-89B9-6BDD2DE3A60F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F32433C8-3C30-40A1-9024-2BC6388108B6}" ShortID="395165130">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sound_ReversingLightLeft" ID="{C0B58906-CBC2-4F1C-8FD7-1D223A43C1FF}" WorkUnitID="{3BC2F75F-8E12-4788-89B9-6BDD2DE3A60F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sound_Truck" ID="{B7C985E1-F0AF-42FA-BE15-704EA1A01793}">
+					<ChildrenList>
+						<Action Name="" ID="{43C12CB7-EB8E-4DF6-8FB5-33E78020A2E1}" ShortID="25450503">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sound_Truck" ID="{71D16E39-5232-4AEF-8DC5-5A958DD6210A}" WorkUnitID="{3BC2F75F-8E12-4788-89B9-6BDD2DE3A60F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

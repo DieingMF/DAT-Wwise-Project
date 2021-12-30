@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>E:\Unity Project\VoiceTest\DAT&amp;Voice_Trial_20211228\</ProjectRoot>
+		<SourceFilesRoot>E:\Unity Project\VoiceTest\DAT&amp;Voice_Trial_20211228\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Unity Project\VoiceTest\DAT&amp;Voice_Trial_20211228\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\Unity Project\VoiceTest\DAT&amp;Voice_Trial_20211228\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1046734771">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="1398498153">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4029853320" Name="Alert_OffHighWay" ObjectPath="\Events\Default Work Unit\Alert_OffHighWay" DurationType="OneShot" DurationMin="0.809333" DurationMax="0.809333">
+					<IncludedMemoryFiles>
+						<File Id="396614319" Language="SFX">
+							<ShortName>Sound_Alert_03.wav</ShortName>
+							<Path>SFX\Sound_Alert_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1136683051" Name="Car_Speed_Slowdown" ObjectPath="\Events\Default Work Unit\Car_Speed_Slowdown" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="62648293" Language="SFX">
+							<ShortName>Sound_Rain_01.wav</ShortName>
+							<Path>SFX\Sound_Rain_01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="482876506" Language="SFX">
+							<ShortName>Sound_Road_02.wav</ShortName>
+							<Path>SFX\Sound_Road_02_3058FAE3.wem</Path>
+						</File>
+						<File Id="517628859" Language="SFX">
+							<ShortName>Sound_Wind_01.wav</ShortName>
+							<Path>SFX\Sound_Wind_01_719D1F17.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="804348222" Name="Chat_Background" ObjectPath="\Events\Default Work Unit\Chat_Background" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="551931364" Language="SFX">
+							<ShortName>Sound_Chat.wav</ShortName>
+							<Path>SFX\Sound_Chat_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3226974434" Name="Dialogue_OffHighWay" ObjectPath="\Events\Default Work Unit\Dialogue_OffHighWay" DurationType="OneShot" DurationMin="2.134785" DurationMax="2.134785">
+					<IncludedMemoryFiles>
+						<File Id="977172381" Language="SFX">
+							<ShortName>Sound_Dialogue_OffHighWay.wav</ShortName>
+							<Path>SFX\Sound_Dialogue_OffHighWay_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2954705851" Name="Play_Sound_Truck" ObjectPath="\Events\Default Work Unit\Play_Sound_Truck" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1064659656" Language="SFX">
+							<ShortName>Sound_Truck.wav</ShortName>
+							<Path>SFX\Sound_Truck_43EB032A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="681117174" Name="SwitchLine_Sound_ReversingLights" ObjectPath="\Events\Default Work Unit\SwitchLine_Sound_ReversingLights" DurationType="OneShot" DurationMin="20.136145" DurationMax="20.136145">
+					<IncludedMemoryFiles>
+						<File Id="613248677" Language="SFX">
+							<ShortName>Sound_ReversingLights.wav</ShortName>
+							<Path>SFX\Sound_ReversingLights_5FDDADB0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="4164958897" Name="Car_Speed" ObjectPath="\Game Parameters\Default Work Unit\Car_Speed"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

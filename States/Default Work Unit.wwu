@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{74576A2C-312F-43AD-9643-7FFB8FE7953E}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{74576A2C-312F-43AD-9643-7FFB8FE7953E}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Volume_State_Group" ID="{F9E2D0A7-DCE6-4FF1-824B-22463E62DBDB}">
+					<ChildrenList>
+						<State Name="None" ID="{ABF6D963-E0D6-4FED-BD3F-67564D784F7C}"/>
+						<State Name="Volume_State_Normal" ID="{5B33392B-B947-4E25-9F57-C7E47045A6B1}"/>
+						<State Name="Volume_State_Louder" ID="{8A15FEE2-C809-4A5D-A701-8966D6BCC360}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="TurningDirection" ID="{B79F1E24-6154-4DFF-8668-FB2AA766945D}">
+					<ChildrenList>
+						<State Name="None" ID="{9FE748A6-E947-42EB-B9F6-D8D7A79F167F}"/>
+						<State Name="Right" ID="{6C384444-9D04-4196-8009-487C51451150}"/>
+						<State Name="Left" ID="{3000459B-0D60-449E-A94C-C0C19AF95587}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

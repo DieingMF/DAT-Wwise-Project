@@ -1,0 +1,39 @@
+Event	ID	Name			Wwise Object Path	Notes
+	681117174	SwitchLine_Sound_ReversingLights			\Default Work Unit\SwitchLine_Sound_ReversingLights	
+	804348222	Chat_Background			\Default Work Unit\Chat_Background	
+	1136683051	Car_Speed_Slowdown			\Default Work Unit\Car_Speed_Slowdown	
+	2954705851	Play_Sound_Truck			\Default Work Unit\Play_Sound_Truck	
+	3226974434	Dialogue_OffHighWay			\Default Work Unit\Dialogue_OffHighWay	
+	4029853320	Alert_OffHighWay			\Default Work Unit\Alert_OffHighWay	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	358334527	TurningDirection			\Default Work Unit\TurningDirection	
+	3005275001	Volume_State_Group			\Default Work Unit\Volume_State_Group	
+
+State	ID	Name	State Group			Notes
+	4109362	Left	TurningDirection			
+	748895195	None	TurningDirection			
+	3893817417	Right	TurningDirection			
+	430358013	Volume_State_Louder	Volume_State_Group			
+	748895195	None	Volume_State_Group			
+	2944662713	Volume_State_Normal	Volume_State_Group			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	193749112	Volume_State_Louder	Volume_State_Group	\Actor-Mixer Hierarchy\Default Work Unit\Sound_Dialogue_OffHighWay		
+	698792998	Left	TurningDirection	\Actor-Mixer Hierarchy\Default Work Unit\Sound_ReversingLightsRight		
+	786389183	Right	TurningDirection	\Actor-Mixer Hierarchy\Default Work Unit\Sound_ReversingLightLeft		
+	938727506	Volume_State_Louder	Volume_State_Group	\Actor-Mixer Hierarchy\Default Work Unit\Sound_Chat		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	4164958897	Car_Speed			\Default Work Unit\Car_Speed	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	62648293	Sound_Rain_01	E:\Unity Project\VoiceTest\DAT&Voice_Trial_20211228\.cache\Windows\SFX\Sound_Rain_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound_OutsideCar\Sound_Rain_01		3288896
+	396614319	Sound_Alert_03	E:\Unity Project\VoiceTest\DAT&Voice_Trial_20211228\.cache\Windows\SFX\Sound_Alert_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound_Alert_03		155456
+	482876506	Sound_Road_02	E:\Unity Project\VoiceTest\DAT&Voice_Trial_20211228\.cache\Windows\SFX\Sound_Road_02_3058FAE3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound_OutsideCar\Sound_Road_02		9424228
+	517628859	Sound_Wind_01	E:\Unity Project\VoiceTest\DAT&Voice_Trial_20211228\.cache\Windows\SFX\Sound_Wind_01_719D1F17.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound_OutsideCar\Sound_Wind_01		6634940
+	551931364	Sound_Chat	E:\Unity Project\VoiceTest\DAT&Voice_Trial_20211228\.cache\Windows\SFX\Sound_Chat_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound_Chat		5614644
+	613248677	Sound_ReversingLightsRight	E:\Unity Project\VoiceTest\DAT&Voice_Trial_20211228\.cache\Windows\SFX\Sound_ReversingLights_5FDDADB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound_ReversingLightsRight		3552080
+	977172381	Sound_Dialogue_OffHighWay	E:\Unity Project\VoiceTest\DAT&Voice_Trial_20211228\.cache\Windows\SFX\Sound_Dialogue_OffHighWay_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound_Dialogue_OffHighWay		376640
+	1064659656	Sound_Truck	E:\Unity Project\VoiceTest\DAT&Voice_Trial_20211228\.cache\Windows\SFX\Sound_Truck_43EB032A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sound_Truck		15915780
+

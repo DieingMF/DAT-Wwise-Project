@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0B99B7A5-169D-4835-96DE-47470AFBB396}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{0B99B7A5-169D-4835-96DE-47470AFBB396}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{05E3DDA0-7BC6-4FC3-B96D-C3BEB03EF463}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Sound_Truck" ID="{B7C985E1-F0AF-42FA-BE15-704EA1A01793}" WorkUnitID="{C0216784-4776-46A5-B571-C9B26EAEF68D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SwitchLine_Sound_ReversingLights" ID="{FAEE28AB-FCF1-45DD-BAA4-170C1D82BD93}" WorkUnitID="{C0216784-4776-46A5-B571-C9B26EAEF68D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dialogue_OffHighWay" ID="{A234A12C-5B47-469B-B88B-7F496C6B28E8}" WorkUnitID="{C0216784-4776-46A5-B571-C9B26EAEF68D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Alert_OffHighWay" ID="{7B3BBA19-5D6B-493D-94EC-E725C3BAFC14}" WorkUnitID="{C0216784-4776-46A5-B571-C9B26EAEF68D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Chat_Background" ID="{4D267969-9DE7-4A7B-9978-D16CFAC01098}" WorkUnitID="{C0216784-4776-46A5-B571-C9B26EAEF68D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Car_Speed_Slowdown" ID="{CF1E582C-476D-4F37-8925-B6C0D2A2EBA8}" WorkUnitID="{C0216784-4776-46A5-B571-C9B26EAEF68D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
